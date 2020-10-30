@@ -1,6 +1,6 @@
-# leerob.io
+# Kurnhy Personal Blog
 
-My portfolio has transformed over the years - from a static HTML site, to Jekyll, to Hugo, and finally to Next.js/React/MDX. My personal slice of the internet provides a platform for my writing and to showcase my latest work.
+My personal website I created from a static HTML site, to Jekyll, to Hugo, and finally to Next.js/React/MDX. My personal slice of the internet provides a platform for my writing and to showcase my latest work.
 
 ## Overview
 
@@ -12,8 +12,8 @@ My portfolio has transformed over the years - from a static HTML site, to Jekyll
 ## Running Locally
 
 ```bash
-$ git clone https://github.com/leerob/leerob.io.git
-$ cd leerob.io
+$ git clone https://github.com/kurnhyalcantara/my-personal-blog.git
+$ cd my-personal-blog
 $ yarn
 $ yarn dev
 ```

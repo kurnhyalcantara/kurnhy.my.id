@@ -59,7 +59,7 @@
     "globby": "11.0.1",
     "prettier": "2.1.1",
     "rehype": "11.0.0"
-  },a
+  },
   "prettier": {
     "arrowParens": "always",
     "singleQuote": true,
