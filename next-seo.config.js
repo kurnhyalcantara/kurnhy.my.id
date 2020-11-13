@@ -21,8 +21,8 @@ const SEO = {
     ]
   },
   twitter: {
-    handle: '@leeerob',
-    site: '@leeerob',
+    handle: '@kurnhyalc24',
+    site: '@kurnhyalc24',
     cardType: 'summary_large_image'
   }
 };

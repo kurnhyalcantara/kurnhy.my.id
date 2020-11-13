@@ -58,7 +58,7 @@ const App = ({ Component, pageProps }) => {
   useEffect(() => {
     if (process.env.NODE_ENV === 'production') {
       Fathom.load(process.env.NEXT_PUBLIC_FATHOM_SITE_ID, {
-        includedDomains: ['leerob.io']
+        includedDomains: ['kurnhy.my.id']
       });
     }
   }, []);
@@ -80,11 +80,11 @@ const App = ({ Component, pageProps }) => {
                 content="/static/favicons/browserconfig.xml"
                 name="msapplication-config"
               />
-              <meta content="14d2e73487fa6c71" name="yandex-verification" />
-              <meta
+              {/* <meta content="14d2e73487fa6c71" name="yandex-verification" /> */}
+              {/* <meta
                 content="eZSdmzAXlLkKhNJzfgwDqWORghxnJ8qR9_CHdAh5-xw"
                 name="google-site-verification"
-              />
+              /> */}
             </Head>
             <DefaultSeo {...SEO} />
             <Component {...pageProps} />
