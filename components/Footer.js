@@ -8,7 +8,7 @@ const Footer = () => (
   <Flex align="center" mb={4} direction="column">
     <NowPlaying />
     <div>
-      <Link href="https://twitter.com/leeerob" title="Twitter" isExternal>
+      <Link href="https://twitter.com/kurnhyalc24" title="Twitter" isExternal>
         <IconButton
           aria-label="Twitter"
           icon="twitter"
@@ -17,7 +17,7 @@ const Footer = () => (
           variant="ghost"
         />
       </Link>
-      <Link href="https://github.com/leerob" title="GitHub" isExternal>
+      <Link href="https://github.com/kurnhyalcantara" title="GitHub" isExternal>
         <IconButton
           aria-label="GitHub"
           icon="github"
@@ -27,26 +27,13 @@ const Footer = () => (
         />
       </Link>
       <Link
-        href="https://www.linkedin.com/in/leeerob"
+        href="https://www.linkedin.com/in/kurniawan-alcantara-b8578a167/"
         title="LinkedIn"
         isExternal
       >
         <IconButton
           aria-label="LinkedIn"
           icon="linkedin"
-          size="lg"
-          color="gray.500"
-          variant="ghost"
-        />
-      </Link>
-      <Link
-        href="https://www.youtube.com/channel/UCZMli3czZnd1uoc1ShTouQw"
-        title="YouTube"
-        isExternal
-      >
-        <IconButton
-          aria-label="YouTube"
-          icon="youtube"
           size="lg"
           color="gray.500"
           variant="ghost"
@@ -79,7 +66,7 @@ const Footer = () => (
         color="gray.500"
         minWidth="100px"
         mr={2}
-        href="https://photos.leerob.io/"
+        href="https://www.instagram.com/kurnhyalcantara24/"
         title="Photos"
         isExternal
       >

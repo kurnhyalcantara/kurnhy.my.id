@@ -120,13 +120,15 @@ const FullTimeline = () => (
       2011
     </Heading>
     <List>
-      <TimelineStep title="Graduated High School">
-        My hometown had about 1000 people, in total. My graduating class was 36.
+      <TimelineStep title="Lulus Sekolah Dasar">
+        Aku benar-benar beruntung bisa lulus dengan predikat terbaik.
       </TimelineStep>
-      <TimelineStep title="Started at Iowa State University 🌪❤️">
-        I've been a die-hard Cyclone fan my whole life. It was a no-brainer that
-        I was going to ISU, especially since they have a great Engineering
-        program.
+      <TimelineStep title="Berkenalan dengan Dunia Komputer❤️">
+        Suatu saat, aku masuk di perpustakaan, dan meminjam sebuah buku motivasi
+        kisah hidup Bill Gates, benar-benar mampu memicu semangatku dalam
+        teknologi digital. Kemudian aku mencari buku tentang persoalan teknis
+        komputer keesokan harinya. Aku masih menggeluti teori nya untuk
+        sementara.
       </TimelineStep>
       <TimelineStep title="Learned How To Program">
         CS 101. Our professor asked a simple question - "Who here has prior
@@ -140,30 +142,31 @@ const FullTimeline = () => (
     </List>
     <YearDivider />
     <Heading as="h3" size="lg" fontWeight="bold" mb={4} letterSpacing="tighter">
-      1998
+      2005
     </Heading>
     <List>
-      <TimelineStep title="First Computer">
-        I remember many nights playing Age of Empires, Lego Island, and
-        Runescape.
+      <TimelineStep title="Masuk Sekolah Dasar (SD)">
+        Periode terpanjang dalam tahap pendidikan di Indonesia, 6 tahun, ada
+        banyak perubahan baik psikologis, emosional, dan intelektual yang saya
+        alami dalam periode itu.
       </TimelineStep>
     </List>
     <YearDivider />
     <Heading as="h3" size="lg" fontWeight="bold" mb={4} letterSpacing="tighter">
-      1997
+      2003
     </Heading>
     <List>
-      <TimelineStep title="Became a Pokémon Master">
-        Every time we'd go to Target, I would beg my mom to get a pack of
-        Pokémon cards. Sorry, mom.
+      <TimelineStep title="Masuk TK">
+        Pertama kali saya mengenal dunia pendidikan, sedikit aneh tapi saya
+        menikmatinya.
       </TimelineStep>
     </List>
     <YearDivider />
     <Heading as="h3" size="lg" fontWeight="bold" mb={4} letterSpacing="tighter">
-      1993
+      1999
     </Heading>
     <List>
-      <TimelineStep title="Born 👶🏼🍼" />
+      <TimelineStep title="Lahir, 12 Maret 👶🏼🍼" />
     </List>
   </>
 );

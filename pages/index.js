@@ -38,9 +38,10 @@ const Index = () => {
             Hey, I’m Kurniawan Alcantara
           </Heading>
           <Text color={secondaryTextColor[colorMode]}>
-            I’m a developer, writer, and creator. I work at ▲Vercel as a
-            Solutions Architect. You’ve found my personal slice of the internet
-            – everything you want to know and more is here.
+            Saya seorang developer, penulis, dan content creator. Saya sementara
+            ini menjalankan studi di Fakultas Keguruan di IAI As'adiyah
+            Sengkang. Well, disini adalah tempatku menghosting personal blogku
+            dengan framework NextJs dan container Vercel.
           </Text>
         </Flex>
         <Flex
@@ -67,21 +68,23 @@ const Index = () => {
             Projects
           </Heading>
           <ProjectCard
-            title="React 2025"
-            description="Build and deploy a modern Jamstack application using the most popular open-source software."
-            href="https://react2025.com/"
+            title="HMI As'adiyah Web App"
+            description="Membangun web app dimulai dari scratch (ground) dengan full feature untuk keperluan humas organisasi. 
+            Salah satu pengalaman yang berharga buatku"
+            href="https://hmi-asadiyah.web.app/"
             icon="react2025"
           />
           <ProjectCard
-            title="Mastering Next.js"
-            description="A free video course for building static and server-side rendered applications with Next.js and React."
-            href="https://masteringnextjs.com/"
+            title="Mastering Firebase"
+            description="Menguasai pengembangan app dan web dengan salah satu produk terbaik google, Firebase."
+            href=""
             icon="nextjs"
           />
           <ProjectCard
-            title="jamstackfns"
-            description="The best serverless functions for JAMstack applications. Deploy to Vercel or Netlify for your static site."
-            href="https://jamstackfns.com/"
+            title="Bugismart App"
+            description="Saya rasa ini adalah pengalaman pertamaku dalam hal Android App Development, ini belum selesai sejak 2 tahun lalu
+            dan tidak akan pernah selesai :v terkendala support finansial"
+            href=""
             icon="jamstackfns"
           />
         </Flex>
