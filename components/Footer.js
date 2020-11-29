@@ -39,7 +39,7 @@ const Footer = () => (
           variant="ghost"
         />
       </Link>
-      <Link href="mailto:me@leerob.io" title="Email" isExternal>
+      <Link href="mailto:kurnhyalcantara@gmail.com" title="Email" isExternal>
         <IconButton
           aria-label="Email"
           icon="mail"

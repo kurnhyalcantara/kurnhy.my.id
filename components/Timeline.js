@@ -48,39 +48,21 @@ const FullTimeline = () => (
   <>
     <YearDivider />
     <Heading as="h3" size="lg" fontWeight="bold" mb={4} letterSpacing="tighter">
-      2018
-    </Heading>
-    <List>
-      <TimelineStep title="Started dsmtech.io 🤘🏻">
-        Reflecting on my recent job search, I realized there wasn't a
-        centralized listing of all the Des Moines tech companies. So...I created
-        it.
-      </TimelineStep>
-      <TimelineStep title="Joined Hy-Vee 🛒">
-        It was time for a change in my career, and Hy-Vee came calling. The best
-        part was reducing my commute time by an hour/day.
-      </TimelineStep>
-    </List>
-    <YearDivider />
-    <Heading as="h3" size="lg" fontWeight="bold" mb={4} letterSpacing="tighter">
       2016
     </Heading>
     <List>
-      <TimelineStep title="Graduated College 🎓">
-        One of my most cherished accomplishments. I worked my ass off to get
-        this degree.
+      <TimelineStep title="Menjelajahi Lebih Jauh ke Dasar Sistem">
+        Aku merasa seperti penjelajahan tanpa batas, seakan aku menguasai
+        jaringan mesin digital di pc ku, suatu ketika aku mencoba memodifikasi
+        file installer sebuah game, hasilnya luar biasa aku bisa melakukan
+        apapun yang aku mau terhadap game itu, Awesome.
       </TimelineStep>
-      <TimelineStep title="Family Roadtrip 🚗">
-        To celebrate graduating, my family and I did a road trip down the
-        Pacific Coast Highway in California. An unforgettable experience.
-      </TimelineStep>
-      <TimelineStep title="Full-Time at Workiva">
-        I was offered and accepted a full-time offer with Workiva, as well as
-        the opportunity to continue my internship until graduation.
-      </TimelineStep>
-      <TimelineStep title="Moved to Des Moines 🏙">
-        I moved Downtown DSM into a quaint 1BR apartment. Des Moines has always
-        felt like home growing up ~45 minutes away.
+      <TimelineStep title="Mencoba membuat program sendiri">
+        Penjelajahan ini mestinya ditopang dengan pemahaman dasar tentang logika
+        pemrograman, itu yang terpenting disamping masalah visualisasinya. Saat
+        aku membuat program crack aktivasi Windows 8, aku masih menggunakan API
+        aplikasi lain yaitu AutoPlay. Aku tidak mempublikasikannya di internet,
+        ini hanya untuk lingkungan pribadi saja
       </TimelineStep>
     </List>
     <YearDivider />
@@ -88,17 +70,10 @@ const FullTimeline = () => (
       2015
     </Heading>
     <List>
-      <TimelineStep title="Started at Workiva 🔥">
-        This internship meant a lot to me. Being able to work part-time while
-        still getting my school work done was huge.
-      </TimelineStep>
-      <TimelineStep title="Started Tutoring Programming">
-        Why not make a little extra money and sharpen my skills? I taught Python
-        to ISU Freshman.
-      </TimelineStep>
-      <TimelineStep title="Second Internship">
-        Spent the summer in (beautiful?) Cedar Rapids, IA working at Rockwell
-        Collins.
+      <TimelineStep title="Eksplorasi Dunia Desain Grafis 🎓">
+        Pertama kali mempelajari dan mencoba menguasai dasar-dasar dunia desain
+        grafis, yaa meskipun hasilnya agak murahan. Aplikasi pertama yang saya
+        pelajari adalah Photoshop, agak rumit tapi seru.
       </TimelineStep>
     </List>
     <YearDivider />
@@ -106,13 +81,24 @@ const FullTimeline = () => (
       2014
     </Heading>
     <List>
-      <TimelineStep title="Took a Semester Off">
-        I opted to stay at my internship full-time throughout the fall.
+      <TimelineStep title="Lulus SMP 🔥">
+        Banyak hal yang aku rindukan saat itu.
       </TimelineStep>
-      <TimelineStep title="Landed First Internship">
-        Finally felt like I understood this whole programming thing. My
-        interviewing skills weren't great, but I managed to snag my first
-        internship.
+      <TimelineStep title="Masuk Pesantren">
+        Terkadang perlu waktu dan wadah yang tepat untuk dapat merubah pandangan
+        hidupmu. Lingkungan seperti ini menjadi keberkahan besar buat hidup saya
+      </TimelineStep>
+    </List>
+    <YearDivider />
+    <Heading as="h3" size="lg" fontWeight="bold" mb={4} letterSpacing="tighter">
+      2013
+    </Heading>
+    <List>
+      <TimelineStep title="Laptop Pribadi Pertama">
+        Saya ingat laptop itu masih sesuai dengan spesifikasi zaman itu, Pentium
+        Dual Core dan RAM 2 GB, saya rasa cukup untuk mengeksplorasi dunia IT
+        saat itu, merasa sulit berpisah dengannya meski 1 hari saja, sudah
+        seperti pacar pertama ku saja :v.
       </TimelineStep>
     </List>
     <YearDivider />
@@ -130,14 +116,9 @@ const FullTimeline = () => (
         komputer keesokan harinya. Aku masih menggeluti teori nya untuk
         sementara.
       </TimelineStep>
-      <TimelineStep title="Learned How To Program">
-        CS 101. Our professor asked a simple question - "Who here has prior
-        programming experience?". About 80% of the class raised their hands. I
-        knew it was going to be an uphill battle from here.
-      </TimelineStep>
-      <TimelineStep title="Wanted To Dropout of College">
-        I didn't pick up programming right away. It didn't help we learned C to
-        start – I'm glad I stuck with it, though.
+      <TimelineStep title="Masuk SMP">
+        Terlalu banyak yang berubah terutama di dalam diri sendiri, personal
+        yang benar-benar liar
       </TimelineStep>
     </List>
     <YearDivider />
@@ -195,28 +176,11 @@ const Timeline = () => {
         2020
       </Heading>
       <List>
-        <TimelineStep title="Joined ▲Vercel">
-          I'm excited to help grow the Next.js community and continue building
-          the optimal workflow for front-end developers.
-        </TimelineStep>
-        <TimelineStep title="Launched React 2025 💯">
-          Building a real SaaS application, from zero to production.
-        </TimelineStep>
-        <TimelineStep title="Emerging Technology Leader of the Year 🏆">
-          I was extremely honored to be one of five finalists nominated for this
-          award at the 2020 Prometheus Awards.
-        </TimelineStep>
-        <TimelineStep title="Got Married 🥳">
-          Great year for a wedding, huh? We had a small ceremony with family and
-          it was better than I could have imagined.
-        </TimelineStep>
-        <TimelineStep title="Became a Tech Lead 👨🏻‍💻">
-          Starting at the beginning of 2020, I moved into a tech leadership role
-          on an e-commerce development team at Hy-Vee.
-        </TimelineStep>
-        <TimelineStep title="Mastering Next.js made $10K 📈">
-          I taught hundreds of students from all over the world how to build web
-          applications. Exceeded my wildest expectations.
+        <TimelineStep title="Projek HMI As'adiyah Web App">
+          Dengan menggunakan framework website HMI Cabang Wajo, saya coba
+          menerapkannya ke HMI Komisariat As'adiyah dengan tingkatan yang lebih
+          tinggi yaitu Web App, dengan fitur PWA nya dan fitur pendukung
+          lainnya. Anda bisa cek di hmi-asadiyah.web.app
         </TimelineStep>
       </List>
       <YearDivider />
@@ -230,26 +194,127 @@ const Timeline = () => {
         2019
       </Heading>
       <List>
-        <TimelineStep title="Software Engineer III ✨">
-          Led design system architecture at Hy-Vee, building new components with
-          React, Storybook, and styled-components.
+        <TimelineStep title="Berkenalan dengan Dunia Literasi">
+          Aku memang pembaca buku sedari kecil, tapi fokus utamaku hanya
+          buku-buku sejarah dan ensiklopedi. Tapi setelah masuk dunia kampus
+          diperlukan wawasan yang benar-benar mendalam sampai keakar-akarnya,
+          dari situlah berkenalan dengan buku filsafat, epistemologi, dan
+          pemikiran tokoh-tokoh terkenal. Hal itu sangat membantuku untuk
+          menjadi seorang akademisi sejati.
         </TimelineStep>
-        <TimelineStep title="Mastering Next.js ⚛️">
-          Launched a 50+ lesson video course for building apps with Next.js and
-          React.
+        <TimelineStep title="Menjadi kader HMI💯">
+          Mengikuti pengkaderan di HMI (Himpunan Mahasiswa Islam) adalah bagian
+          pemrosesan diriku untuk bertransofarmasi menjadi insan akademis dan
+          idealis. Tak ada satupun wadah yang mampu merubahku dalam hal
+          idealisme selain HMI.
         </TimelineStep>
-        <TimelineStep title="Bought a Townhome 🏡">
-          Who wants to do yardwork? Not me. Plus, Allie and I love living
-          downtown Des Moines.
+        <TimelineStep title="Projek Website HMI Cabang Wajo">
+          Saat itu saya diminta oleh Ketua HMI Cabang Wajo untuk membuat website
+          HMI Cabang Wajo. Saya pun mengindahkan, tapi diperlukan dana yang
+          tidak sedikit, apalagi saat itu masa awal periodenya. Akhirnya saya
+          mencari cara agar menciptakan sebuah website gratis tapi tidak
+          terkesan murahan dan menggunakan top domain, dan akhirnya saya
+          berkenalan dengan NodeJS dan dipadukan dengan Firebase. Terciptalah
+          hmiwajo.web.app
         </TimelineStep>
-        <TimelineStep title="Got Engaged 💍">
-          I asked my now fiancée, Allie, to marry me. She said yes! September
-          was a busy month, to say the least – I also spoke at three events and
-          sold my condo.
+      </List>
+      <YearDivider />
+      <Heading
+        as="h3"
+        size="lg"
+        fontWeight="bold"
+        mb={4}
+        letterSpacing="tighter"
+      >
+        2018
+      </Heading>
+      <List>
+        <TimelineStep title="Berkenalan dengan Android Development">
+          Awalnya aku tergiur dengan beberapa developer aplikasi yang bisa dapat
+          gaji bulanan dari google, jadi saya pun berusaha mempelajari hal itu
+          juga. Awalnya sangat-sangat beresiko karena spesifikasi laptopku
+          sangat rendah untuk menjalankan IDE sekelas Android Studio, tapi saya
+          paksakan saja, dan hasilnya kalian tau sendirilah :(.
         </TimelineStep>
-        <TimelineStep title="Spoke at Talent42 🎤">
-          I spoke to over 100 technical recruiting leaders from across the
-          country at Talent42 in Seattle during a 45-minute keynote.
+        <TimelineStep title="Mempelajari Bahasa Pemrograman Java 💯">
+          Hal yang paling penting dalam pemrograman android adalah menguasai
+          bahasa pemrograman java. Ini adalah bahasa pemrograman tersulit
+          menurut saya meskipun sudah dilengkapi dengan dokumentasi sekalipun,
+          yang membuatnya sulit adalah alur logika dan algoritmnya yang
+          berbelit-belit dan ruwet.
+        </TimelineStep>
+        <TimelineStep title="Projek pertama aplikasi android ku 🏆">
+          Dalam projek ini saya bertindak sebagai satu-satunya orang
+          mengerjakan, aku bertindak sebagai projek manager, software engineer,
+          front-end visualitazion, tapi saya sangat menikmatinya. Saya sudah
+          mengirim undangan ke beberapa teman untuk bergabung di projek ini tapi
+          tidak ada yang merespon. Aplikasi ini bernama BugisMart, semacam
+          marketplace yang sepertinya ide ini sudah di take over oleh aplikasi
+          yang bernama Labaco.
+        </TimelineStep>
+        <TimelineStep title="Masuk kampus 🥳">
+          Aku masuk di Fakultas Keguruan Institut Agama Islam As'adiyah
+          Sengkang, aku sebenarnya kurang paham apa maksud dan tujuan ku masuk
+          di fakultas. Tapi aku benar-benar paham dan meresapi makna dan tujuan
+          sebenarnya dari dunia kampus setelah aku masuk di HMI (Himpunan
+          Mahasiswa Islam).
+        </TimelineStep>
+      </List>
+      <YearDivider />
+      <Heading
+        as="h3"
+        size="lg"
+        fontWeight="bold"
+        mb={4}
+        letterSpacing="tighter"
+      >
+        2017
+      </Heading>
+      <List>
+        <TimelineStep title="Membuat Skinpack sendiri ✨">
+          Periode ini kira-kira menjelang saya lulus dari pesantren, saya
+          mencoba mengkreasikan skinpack sendiri, sebuah tema full bundling
+          untuk windows. Saya mampu memberikan fitur lengkap untuk program itu,
+          Awesome.
+        </TimelineStep>
+        <TimelineStep title="Lulus dari Pesantren ⚛️">
+          Ada banyak teman dan pengalaman luar biasa yang bisa saya dapatkan
+          dari sana, dan yang terpenting dari segalanya adalah kesempatan untuk
+          mendapatkan ilmu dari alim ulama.
+        </TimelineStep>
+        <TimelineStep title="Terobsesi menjadi hacker 🏡">
+          Yaa pastinya lah orang yang menghabiskan waktu hampir 6 jam sehari
+          didepan komputer kemungkinan akan terobsesi seperti itu, aku mengatur
+          waktuku didepan komputer mulai jam 7 malam hingga jam 1. Setidaknya
+          ada beberapa film yang membuatku terobsesi, yaitu Whoami, Mr Robot,
+          Bloody Monday, The Technicians.
+        </TimelineStep>
+        <TimelineStep title="Berkenalan dengan Kali Linux 🏡">
+          Jadi salah satu OS terbaik buat penetration testing dan berada di
+          lingkungan linux adalah Kali Linux OS. Sebenarnya saya belum terlalu
+          mendalami fundamental linux operating system, tapi setelah saya
+          menyelaminya cukup lama saya sudah terbiasa, meskipun hanya satu
+          bahasa pemrogramannya yang benar-benar saya kuasai yaitu Shell.
+        </TimelineStep>
+        <TimelineStep title="Berkenalan dengan Cryptocurrency 💍">
+          Saat itu tanggal 28 Juli 2017, malamnya aku menghabiskan semalaman
+          youtuban, saat itu aku melihat video dan sekaligus mengenalkanku
+          dengan dunia cryptocurrency (bitcoin), awalnya aku ragu apakah ini
+          mirip MLM atau tidak, tapi setelah memahaminya lebih dalam saya
+          menganggap wow teknologi ini akan menjadi teknologi yang menjanjikan
+          di masa depan, sekaligus investasi yang bagus untuk saya, bayangkan
+          saja harga 1 bitcon harganya melonjak hingga 930% dalam 2 bulan,
+          sampai-sampai aku mengoleksi 3 jt saat itu dimana saya pertama kali
+          investasi 100 ribu. Awesome.
+        </TimelineStep>
+        <TimelineStep title="Pemburu Faucet dan Situs Mining Bitcoin">
+          Saat bitcoin menjadi trend saat itu, banyak situs mining dan situs
+          bagi bitcoin gratis atau istilahnya faucet bertebaran di internet, yaa
+          aku bahkan menghabiskan semalaman suntuk sebagai pemburu faucet itu,
+          sebut sajalah situs freebitco.in, bitcofarm, eobot. Bagusnya sih jika
+          memang benar2 tekun kita harus mengakomodasi uang tidak sedikit untuk
+          beli superkomputer dengan spesifikasi tinggi supaya berpenghasilan
+          lebih cepat.
         </TimelineStep>
       </List>
       {isShowingFullTimeline ? (
