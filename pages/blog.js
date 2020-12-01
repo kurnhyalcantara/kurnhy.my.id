@@ -21,10 +21,10 @@ import { frontMatter as styleGuides } from './blog/style-guides-component-librar
 import { frontMatter as stripeDesign } from './blog/how-stripe-designs-beautiful-websites.mdx';
 import { frontMatter as monorepo } from './blog/monorepo-lerna-yarn-workspaces.mdx';
 
-const url = 'https://leerob.io/blog';
-const title = 'Blog – Lee Robinson';
+const url = 'https://kurnhy.my.id/blog';
+const title = 'Blog – Kurniawan Alcantara';
 const description =
-  'Thoughts on the software industry, programming, tech, videography, music, and my personal life.';
+  'Kumpulan tulisan dan artikel dengan topik yang luas dan update terhadap situasi dan peristiwa terkini';
 
 const Blog = () => {
   const [searchValue, setSearchValue] = useState('');
@@ -74,15 +74,14 @@ const Blog = () => {
               Blog
             </Heading>
             <Text color={secondaryTextColor[colorMode]}>
-              {`I've been writing online since 2014, mostly about web development and tech careers.
-                In total, I've written ${blogPosts.length} articles on this site.
-                Use the search below to filter by title.`}
+              {`Saya sejatinya telah menulis sejak 2017 dengan berbagai macam platform blogger tapi sudah tidak aktif, mudah-mudah di situs personalku ini aku bisa fokus dan mengurusnya sepenuh hati. Saya telah menulis ${blogPosts.length} artikel di situs ini.
+                Gunakan kolom pencarian dibawah untuk mencari topik yang anda suka.`}
             </Text>
             <InputGroup my={4} mr={4} w="100%">
               <Input
-                aria-label="Search articles"
+                aria-label="Cari topik"
                 onChange={(e) => setSearchValue(e.target.value)}
-                placeholder="Search articles"
+                placeholder="Contoh teknologi, filsafat, sains, politik"
               />
               <InputRightElement>
                 <Icon name="search" color="gray.300" />
@@ -98,7 +97,7 @@ const Blog = () => {
               mt={8}
             >
               <Heading letterSpacing="tight" mb={4} size="xl" fontWeight={700}>
-                Most Popular
+                Artikel Populer
               </Heading>
               <BlogPost {...styleGuides} />
               <BlogPost {...stripeDesign} />
@@ -113,7 +112,7 @@ const Blog = () => {
             mt={8}
           >
             <Heading letterSpacing="tight" mb={4} size="xl" fontWeight={700}>
-              All Posts
+              Semua Tulisan
             </Heading>
             {!filteredBlogPosts.length && 'No posts found.'}
             {filteredBlogPosts.map((frontMatter) => (

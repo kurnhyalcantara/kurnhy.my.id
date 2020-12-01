@@ -60,7 +60,7 @@ const Container = ({ children }) => {
               Blog
             </Button>
           </NextLink>
-          <NextLink href="/about" passHref>
+          <NextLink href="/profil" passHref>
             <Button as="a" variant="ghost" p={[1, 4]}>
               Profil
             </Button>

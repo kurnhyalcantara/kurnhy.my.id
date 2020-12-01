@@ -58,7 +58,7 @@ const Footer = () => (
           mr={2}
           title="Uses"
         >
-          /uses
+          /alat_Tempur
         </Link>
       </NextLink>
       <Link
@@ -70,7 +70,7 @@ const Footer = () => (
         title="Photos"
         isExternal
       >
-        /photos
+        /insta
       </Link>
       <NextLink href="/newsletter" passHref>
         <Link

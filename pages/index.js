@@ -38,8 +38,8 @@ const Index = () => {
             Kurniawan Alcantara
           </Heading>
           <Text color={secondaryTextColor[colorMode]}>
-            Saya seorang pengembangan aplikasi web, penulis dan pegiat dunia
-            literasi. Saya untuk saat ini masih menjalankan studi di Fakultas
+            Saya seorang pengembang aplikasi web, penulis dan pegiat dunia
+            literasi. Untuk saat ini masih menjalankan studi di Fakultas
             Keguruan di IAI As'adiyah Sengkang. Jadi, disini adalah tempatku
             mempublikasikan semua tulisanku baik artikel atau opini. Topiknya
             bermacam-macam seperti teknologi, dunia kampus, dan terkadang juga

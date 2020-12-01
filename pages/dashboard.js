@@ -42,7 +42,7 @@ const Dashboard = () => {
           description,
           images: [
             {
-              url: 'https://leerob.io/static/images/dashboard.jpg',
+              url: 'https://kurnhy.my.id/static/images/dashboard.jpg',
               alt: description,
               width: 1280,
               height: 720
@@ -92,7 +92,7 @@ const Dashboard = () => {
             </SimpleGrid>
           </Flex>
           <Heading letterSpacing="tight" as="h2" size="xl">
-            Top Tracks
+            Lagu Favorit
           </Heading>
           <Text color={secondaryTextColor[colorMode]}>
             Curious what I'm currently jamming to? Here's my top tracks on
