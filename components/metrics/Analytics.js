@@ -12,7 +12,7 @@ const Analytics = () => {
   const pageViews = format(data?.total);
   const link = 'https://kurnhy.my.id';
 
-  return <MetricCard header="All-Time Views" link={link} metric={pageViews} />;
+  return <MetricCard header="Kunjungan Blog" link={link} metric={pageViews} />;
 };
 
 export default Analytics;

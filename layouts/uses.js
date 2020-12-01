@@ -21,13 +21,13 @@ export default function UsesLayout({ children }) {
   return (
     <Container>
       <NextSeo
-        title="Uses – Lee Robinson"
-        description={`Here's what tech I'm currently using for coding, videos, and music.`}
-        canonical="https://leerob.io/uses"
+        title="Perangkat - Kurniawan Alcantara"
+        description={`Ini semua adalah perangkat yang aku gunakan sehari-hari untuk keperluan coding, video, dan musik`}
+        canonical="https://kurnhy.my.id/perangkat"
         openGraph={{
-          url: 'https://leerob.io/uses',
-          title: 'Uses – Lee Robinson',
-          description: `Here's what tech I'm currently using for coding, videos, and music.`
+          url: 'https://kurnhy.my.id/perangkat',
+          title: 'Perangkat - Kurniawan Alcantara',
+          description: `Ini semua adalah perangkat yang aku gunakan sehari-hari untuk keperluan coding, video, dan musik`
         }}
       />
       <Stack
@@ -51,8 +51,8 @@ export default function UsesLayout({ children }) {
           </Heading>
           <Flex mt={2} w="100%">
             <Text fontSize="sm" color={textColor[colorMode]}>
-              Here's what tech I'm currently using for coding, videos, and
-              music.
+              Ini semua adalah perangkat yang aku gunakan sehari-hari untuk
+              keperluan coding, video, dan musik
             </Text>
           </Flex>
         </Flex>

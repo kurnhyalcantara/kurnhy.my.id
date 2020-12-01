@@ -26,7 +26,10 @@ export default function NewsletterLayout({ children, frontMatter }) {
 
   return (
     <Container>
-      <BlogSeo url={`https://leerob.io/newsletter/${slug}`} {...frontMatter} />
+      <BlogSeo
+        url={`https://kurnhy.my.id/newsletter/${slug}`}
+        {...frontMatter}
+      />
       <Stack
         as="article"
         spacing={8}
@@ -57,13 +60,13 @@ export default function NewsletterLayout({ children, frontMatter }) {
             <Flex align="center">
               <Avatar
                 size="xs"
-                name="Lee Robinson"
-                src="https://bit.ly/33vEjhB"
+                name="Kurniawan Alcantara"
+                src="https://firebasestorage.googleapis.com/v0/b/kurnhy-blog.appspot.com/o/1.jpg?alt=media&token=2d4406d8-a304-4e66-98fb-14c4eea40890"
                 mr={2}
               />
               <Text fontSize="sm" color={textColor[colorMode]}>
                 {frontMatter.by}
-                {'Lee Robinson / '}
+                {'Kurniawan Alcantara / '}
                 {format(parseISO(frontMatter.publishedAt), 'MMMM dd, yyyy')}
               </Text>
             </Flex>

@@ -18,12 +18,12 @@ const Subscribe = () => {
   const toast = useToast();
   const { colorMode } = useColorMode();
   const bgColor = {
-    light: 'blue.50',
-    dark: 'blue.900'
+    light: 'green.50',
+    dark: 'green.900'
   };
   const borderColor = {
-    light: 'blue.200',
-    dark: 'blue.900'
+    light: 'green.200',
+    dark: 'green.900'
   };
 
   const subscribe = async (e) => {
@@ -80,13 +80,12 @@ const Subscribe = () => {
         Subscribe to the newsletter
       </Heading>
       <Text>
-        Get emails from me about web development, tech, and early access to new
-        articles.
+        Dapatkan update terbaru artikel dan tulisan lainnya melalui email
       </Text>
       <InputGroup size="md" mt={4}>
         <Input
           aria-label="Email for newsletter"
-          placeholder="tim@apple.com"
+          placeholder="google@gmail.com"
           ref={inputEl}
           type="email"
         />

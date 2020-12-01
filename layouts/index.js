@@ -18,10 +18,10 @@ import ViewCounter from '../components/ViewCounter';
 import BlogSeo from '../components/BlogSeo';
 
 const editUrl = (slug) =>
-  `https://github.com/leerob/leerob.io/edit/master/pages/blog/${slug}.mdx`;
+  `https://github.com/kurnhyalcantara/my-personal-blog/edit/master/pages/blog/${slug}.mdx`;
 const discussUrl = (slug) =>
   `https://mobile.twitter.com/search?q=${encodeURIComponent(
-    `https://leerob.io/blog/${slug}`
+    `https://kurnhy.my.id/blog/${slug}`
   )}`;
 
 export default function BlogLayout({ children, frontMatter }) {
@@ -36,7 +36,7 @@ export default function BlogLayout({ children, frontMatter }) {
 
   return (
     <Container>
-      <BlogSeo url={`https://leerob.io/blog/${slug}`} {...frontMatter} />
+      <BlogSeo url={`https://kurnhy.my.id/blog/${slug}`} {...frontMatter} />
       <Stack
         as="article"
         spacing={8}
@@ -67,13 +67,13 @@ export default function BlogLayout({ children, frontMatter }) {
             <Flex align="center">
               <Avatar
                 size="xs"
-                name="Lee Robinson"
-                src="https://bit.ly/33vEjhB"
+                name="Kurniawan Alcantara"
+                src="https://firebasestorage.googleapis.com/v0/b/kurnhy-blog.appspot.com/o/1.jpg?alt=media&token=2d4406d8-a304-4e66-98fb-14c4eea40890"
                 mr={2}
               />
               <Text fontSize="sm" color={textColor[colorMode]}>
                 {frontMatter.by}
-                {'Lee Robinson / '}
+                {'Kurniawan Alcantara / '}
                 {format(parseISO(frontMatter.publishedAt), 'MMMM dd, yyyy')}
               </Text>
             </Flex>
@@ -97,7 +97,7 @@ export default function BlogLayout({ children, frontMatter }) {
         </Box>
         <IframeResizer
           checkOrigin={false}
-          title="Comments"
+          title="Komentar"
           src={`https://fastfeedback.io/embed/BLspD6y8Bfn73LLm7nvW/${slug}?theme=${colorMode}`}
           style={{
             width: '1px',
