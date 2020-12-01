@@ -4,14 +4,14 @@ import { NextSeo, ArticleJsonLd } from 'next-seo';
 const BlogSeo = ({ title, summary, publishedAt, url, image }) => {
   const date = new Date(publishedAt).toISOString();
   const featuredImage = {
-    url: `https://leerob.io${image}`,
+    url: `https://kurnhy.my.id${image}`,
     alt: title
   };
 
   return (
     <>
       <NextSeo
-        title={`${title} – Lee Robinson`}
+        title={`${title} – Kurniawan Alcantara`}
         description={summary}
         canonical={url}
         openGraph={{
@@ -26,13 +26,13 @@ const BlogSeo = ({ title, summary, publishedAt, url, image }) => {
         }}
       />
       <ArticleJsonLd
-        authorName="Lee Robinson"
+        authorName="Kurniawan Alcantara"
         dateModified={date}
         datePublished={date}
         description={summary}
         images={[featuredImage]}
         publisherLogo="/static/favicons/android-chrome-192x192.png"
-        publisherName="Lee Robinson"
+        publisherName="Kurniawan Alcantara"
         title={title}
         url={url}
       />
