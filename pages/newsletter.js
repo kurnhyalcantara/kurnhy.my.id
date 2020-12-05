@@ -74,7 +74,7 @@ const Newsletter = () => {
             mt={8}
           >
             <Heading letterSpacing="tight" mb={4} size="xl" fontWeight={700}>
-              Archive
+              Arsip
             </Heading>
             <List styleType="disc">
               {newsletters
