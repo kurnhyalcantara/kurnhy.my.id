@@ -16,8 +16,8 @@ import NewsletterLink from '../components/NewsletterLink';
 // eslint-disable-next-line import/no-unresolved, import/extensions
 import { frontMatter as newsletters } from './newsletter/**/*.mdx';
 
-const url = 'https://leerob.io/newsletter';
-const title = 'Newsletter – Lee Robinson';
+const url = 'https://kurnhy.my.id/newsletter';
+const title = 'Newsletter – Kurniawan Alcantara';
 const description =
   'Thoughts on the software industry, programming, tech, videography, music, and my personal life.';
 
