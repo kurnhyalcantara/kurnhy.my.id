@@ -70,7 +70,7 @@ const Dashboard = () => {
             </Heading>
             <Text color={secondaryTextColor[colorMode]}>
               Ini adalah personal dashboard, dibuat dengan framework Next.js API
-              dan dihosting dengan fitur serverless functions. Saya memamkai
+              dan dihosting dengan fitur serverless functions. Saya memakai
               dashboard untuk melacak perkembangan media mainstream ku seperti
               Youtube, Github, dll.
             </Text>
@@ -87,7 +87,6 @@ const Dashboard = () => {
               <GitHub />
             </SimpleGrid>
             <SimpleGrid columns={[1, 1, 2]} spacing={4} mb={4}>
-              <Gumroad />
               <Buttondown />
             </SimpleGrid>
           </Flex>
@@ -95,8 +94,8 @@ const Dashboard = () => {
             Lagu Favorit
           </Heading>
           <Text color={secondaryTextColor[colorMode]}>
-            Curious what I'm currently jamming to? Here's my top tracks on
-            Spotify updated daily.
+            Sebenarnya saya malas berlangganan spotify, tapi terkadang hanya
+            sekedar mendengarkan lagu secara acak
           </Text>
           <TopTracks />
         </Stack>

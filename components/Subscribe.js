@@ -80,7 +80,7 @@ const Subscribe = () => {
         Subscribe to the newsletter
       </Heading>
       <Text>
-        Dapatkan update terbaru artikel dan tulisan lainnya melalui email
+        Dapatkan update artikel dan tulisan terbaru lainnya melalui email
       </Text>
       <InputGroup size="md" mt={4}>
         <Input

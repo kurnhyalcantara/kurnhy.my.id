@@ -10,7 +10,7 @@ const Buttondown = () => {
   const { data } = useSWR('/api/subscribers', fetcher);
 
   const subscriberCount = format(data?.count);
-  const link = 'https://buttondown.email/leerob';
+  const link = 'https://buttondown.email/kurnhyalcantara';
 
   return (
     <MetricCard

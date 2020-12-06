@@ -74,7 +74,7 @@ const Blog = () => {
               Blog
             </Heading>
             <Text color={secondaryTextColor[colorMode]}>
-              {`Saya sejatinya telah menulis sejak 2017 dengan berbagai macam platform blogger tapi sudah tidak aktif, mudah-mudah di situs personalku ini aku bisa fokus dan mengurusnya sepenuh hati. Saya telah menulis ${blogPosts.length} artikel di situs ini.
+              {`Saya sejatinya telah menulis sejak 2017 dengan berbagai macam platform blogger tapi sudah tidak aktif, mudah-mudahan di situs personalku ini aku bisa serius mengurusnya. Saya telah menulis ${blogPosts.length} artikel di situs ini.
                 Gunakan kolom pencarian dibawah untuk mencari topik yang anda suka.`}
             </Text>
             <InputGroup my={4} mr={4} w="100%">
