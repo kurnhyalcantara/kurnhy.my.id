@@ -28,7 +28,7 @@ const GlobalStyle = ({ children }) => {
           ${colorMode === 'light' ? prismLightTheme : prismDarkTheme};
 
           ::selection {
-            background-color: #47a3f3;
+            background-color: #31f2b8;
             color: #fefefe;
           }
 

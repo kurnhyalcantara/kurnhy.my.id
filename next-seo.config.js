@@ -1,5 +1,5 @@
 const title = 'Kurniawan Alcantara – Techie Hobbyst dan Penulis.';
-const description = 'Developer, Penyuka Matematika, dan membaca buku';
+const description = 'Developer Web App, Penulis, Pegiat Literasi';
 
 const SEO = {
   title,

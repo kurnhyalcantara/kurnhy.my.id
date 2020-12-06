@@ -3,6 +3,7 @@
 .next
 node_modules
 public/sitemap.xml
+.env.*
 .mdx-data
 .vercel
 serviceAccount.json
