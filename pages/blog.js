@@ -17,7 +17,7 @@ import BlogPost from '../components/BlogPost';
 
 // eslint-disable-next-line import/no-unresolved, import/extensions
 import { frontMatter as blogPosts } from './blog/**/*.mdx';
-import { frontMatter as styleGuides } from './blog/style-guides-component-libraries-design-systems.mdx';
+import { frontMatter as styleGuides } from './blog/kapitang-massalanra-panglima-perang-datu-lowa.mdx';
 import { frontMatter as stripeDesign } from './blog/how-stripe-designs-beautiful-websites.mdx';
 import { frontMatter as monorepo } from './blog/monorepo-lerna-yarn-workspaces.mdx';
 
