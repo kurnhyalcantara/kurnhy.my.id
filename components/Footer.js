@@ -70,7 +70,7 @@ const Footer = () => (
         title="Photos"
         isExternal
       >
-        /insta
+        /photos
       </Link>
       <NextLink href="/newsletter" passHref>
         <Link

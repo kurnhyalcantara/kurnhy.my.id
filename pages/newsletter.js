@@ -19,7 +19,7 @@ import { frontMatter as newsletters } from './newsletter/**/*.mdx';
 const url = 'https://kurnhy.my.id/newsletter';
 const title = 'Newsletter – Kurniawan Alcantara';
 const description =
-  'Thoughts on the software industry, programming, tech, videography, music, and my personal life.';
+  'Membagikan beberapa kejadian penting sehari-hari, yaa semacam diary lah';
 
 const Newsletter = () => {
   const { colorMode } = useColorMode();
@@ -59,10 +59,8 @@ const Newsletter = () => {
               Newsletter
             </Heading>
             <Text color={secondaryTextColor[colorMode]}>
-              My newsletter provides a behind-the-scenes look into what I'm
-              working on and writing about. I frequently share some of my
-              favorite articles I've read, as well as anything fascinating about
-              technology.
+              Membagikan beberapa kejadian penting sehari-hari dalam bentuk
+              tulisan, yaa semacam diary lah.
             </Text>
           </Flex>
           <Subscribe />
