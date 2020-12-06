@@ -59,7 +59,7 @@ const NowPlaying = () => {
           href={data?.songUrl}
           isExternal
         >
-          {data && (data?.title || '-')}
+          {data && (data?.title || 'Lg gk dengerin lagu')}
         </Link>
         <Text
           color="gray.500"
@@ -69,7 +69,7 @@ const NowPlaying = () => {
           overflow="hidden"
           textOverflow="ellipsis"
         >
-          {data && (data?.artist || '-')}
+          {data && (data?.artist || 'lg sibuk bray')}
         </Text>
       </Stack>
       <Icon name="spotify" ml="auto" mt={1} />
