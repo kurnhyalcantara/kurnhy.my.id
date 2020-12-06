@@ -17,9 +17,7 @@ import BlogPost from '../components/BlogPost';
 
 // eslint-disable-next-line import/no-unresolved, import/extensions
 import { frontMatter as blogPosts } from './blog/**/*.mdx';
-import { frontMatter as styleGuides } from './blog/kapitang-massalanra-panglima-perang-datu-lowa.mdx';
-import { frontMatter as stripeDesign } from './blog/how-stripe-designs-beautiful-websites.mdx';
-import { frontMatter as monorepo } from './blog/monorepo-lerna-yarn-workspaces.mdx';
+import { frontMatter as kapitangMassalanra } from './blog/kapitang-massalanra-panglima-perang-datu-lowa.mdx';
 
 const url = 'https://kurnhy.my.id/blog';
 const title = 'Blog – Kurniawan Alcantara';
@@ -99,9 +97,7 @@ const Blog = () => {
               <Heading letterSpacing="tight" mb={4} size="xl" fontWeight={700}>
                 Artikel Populer
               </Heading>
-              <BlogPost {...styleGuides} />
-              <BlogPost {...stripeDesign} />
-              <BlogPost {...monorepo} />
+              <BlogPost {...kapitangMassalanra} />
             </Flex>
           )}
           <Flex

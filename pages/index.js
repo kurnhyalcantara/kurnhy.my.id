@@ -7,9 +7,7 @@ import BlogPost from '../components/BlogPost';
 import Subscribe from '../components/Subscribe';
 import ProjectCard from '../components/ProjectCard';
 
-import { frontMatter as styleGuides } from './blog/kapitang-massalanra-panglima-perang-datu-lowa.mdx';
-import { frontMatter as stripeDesign } from './blog/how-stripe-designs-beautiful-websites.mdx';
-import { frontMatter as monorepo } from './blog/monorepo-lerna-yarn-workspaces.mdx';
+import { frontMatter as kapitangMassalanra } from './blog/kapitang-massalanra-panglima-perang-datu-lowa.mdx';
 
 const Index = () => {
   const { colorMode } = useColorMode();
@@ -56,9 +54,7 @@ const Index = () => {
           <Heading letterSpacing="tight" mb={4} size="xl" fontWeight={700}>
             Tulisan populer
           </Heading>
-          <BlogPost {...styleGuides} />
-          <BlogPost {...stripeDesign} />
-          <BlogPost {...monorepo} />
+          <BlogPost {...kapitangMassalanra} />
         </Flex>
         <Flex
           flexDirection="column"
