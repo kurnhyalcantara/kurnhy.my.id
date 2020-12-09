@@ -50,15 +50,6 @@ const Index = () => {
             Topiknya bermacam-macam seperti teknologi, dunia kampus, dan
             terkadang juga opini saya terhadap peristiwa terkini.
           </Text>
-          <Image
-            alignItems="center"
-            alt="Me"
-            height="512px"
-            width="700px"
-            borderRadius={8}
-            p={8}
-            src="https://firebasestorage.googleapis.com/v0/b/kurnhy-blog.appspot.com/o/1.jpg?alt=media&token=2d4406d8-a304-4e66-98fb-14c4eea40890"
-          />
         </Flex>
         <Flex
           flexDirection="column"

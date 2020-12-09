@@ -13,6 +13,10 @@ const BlogPost = (frontMatter) => {
     light: 'gray.700',
     dark: 'gray.400'
   };
+  const bgColor = {
+    light: 'white',
+    dark: 'gray.700'
+  };
 
   const slug = frontMatter.__resourcePath
     .replace('blog/', '')
@@ -23,8 +27,13 @@ const BlogPost = (frontMatter) => {
 
   return (
     <NextLink href={`blog/${slug}`} passHref>
-      <Link w="100%" _hover={{ textDecoration: 'none' }}>
-        <Box mb={8} display="block" width="100%">
+      <Link
+        mb={4}
+        w="100%"
+        bg={bgColor[colorMode]}
+        _hover={{ textDecoration: 'none' }}
+      >
+        <Flex display="block" width="100%" p={4}>
           <Flex
             width="100%"
             align="flex-start"
@@ -44,7 +53,7 @@ const BlogPost = (frontMatter) => {
             </Text>
           </Flex>
           <Text color={secondaryTextColor[colorMode]}>{summary}</Text>
-        </Box>
+        </Flex>
       </Link>
     </NextLink>
   );
