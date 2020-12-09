@@ -31,9 +31,10 @@ const BlogPost = (frontMatter) => {
         mb={4}
         w="100%"
         bg={bgColor[colorMode]}
+        p={4}
         _hover={{ textDecoration: 'none' }}
       >
-        <Flex display="block" width="100%" p={4}>
+        <Flex display="block" width="100%">
           <Flex
             width="100%"
             align="flex-start"
