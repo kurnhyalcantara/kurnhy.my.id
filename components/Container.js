@@ -1,6 +1,13 @@
 import React from 'react';
 import NextLink from 'next/link';
-import { useColorMode, Button, Flex, Box, IconButton } from '@chakra-ui/core';
+import {
+  useColorMode,
+  Button,
+  Flex,
+  Box,
+  IconButton,
+  Avatar
+} from '@chakra-ui/core';
 import styled from '@emotion/styled';
 
 import Footer from './Footer';
@@ -39,30 +46,28 @@ const Container = ({ children }) => {
         width="100%"
         bg={navBgColor[colorMode]}
         as="nav"
-        p={8}
-        mt={[0, 8]}
+        p={5}
+        mt={[0, 6]}
         mb={8}
         mx="auto"
       >
-        <IconButton
-          aria-label="Toggle dark mode"
-          icon={colorMode === 'dark' ? 'sun' : 'moon'}
-          onClick={toggleColorMode}
-        />
         <Box>
           <NextLink href="/" passHref>
-            <Button as="a" variant="ghost" p={[1, 4]}>
-              Home
+            <Avatar
+              name="Kurniawan Alcantara"
+              src="https://firebasestorage.googleapis.com/v0/b/kurnhy-blog.appspot.com/o/1.jpg?alt=media&token=2d4406d8-a304-4e66-98fb-14c4eea40890"
+              sx={{ maxWidth: '5rem' }}
+              mr={4}
+            />
+          </NextLink>
+          <NextLink href="/" passHref>
+            <Button as="a" variant="ghost">
+              Me
             </Button>
           </NextLink>
           <NextLink href="/blog" passHref>
-            <Button as="a" variant="ghost" p={[1, 4]}>
+            <Button as="a" variant="ghost">
               Blog
-            </Button>
-          </NextLink>
-          <NextLink href="/profil" passHref>
-            <Button as="a" variant="ghost" p={[1, 4]}>
-              Profil
             </Button>
           </NextLink>
           <NextLink href="/dashboard" passHref>
@@ -71,6 +76,11 @@ const Container = ({ children }) => {
             </Button>
           </NextLink>
         </Box>
+        <IconButton
+          aria-label="Toggle dark mode"
+          icon={colorMode === 'dark' ? 'sun' : 'moon'}
+          onClick={toggleColorMode}
+        />
       </StickyNav>
       <Flex
         as="main"
