@@ -24,8 +24,6 @@ const discussUrl = (slug) =>
   `https://mobile.twitter.com/search?q=${encodeURIComponent(
     `https://kurnhy.my.id/blog/${slug}`
   )}`;
-const { data } = useSWR(`/api/page-views?id=${slug}`, fetcher);
-const views = data?.total;
 
 export default function BlogLayout({ children, frontMatter }) {
   const slug = frontMatter.__resourcePath
@@ -83,7 +81,6 @@ export default function BlogLayout({ children, frontMatter }) {
             <Text fontSize="sm" color="gray.500" minWidth="100px" mt={[2, 0]}>
               {frontMatter.readingTime.text}
               {` • `}
-              {`${views ? format(views) : '–––'} kali dibaca`}
             </Text>
           </Flex>
         </Flex>
