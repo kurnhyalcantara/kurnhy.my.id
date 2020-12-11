@@ -16,7 +16,6 @@ import {
 import Container from '../components/Container';
 import Subscribe from '../components/Subscribe';
 import BlogSeo from '../components/BlogSeo';
-import fetcher from '../lib/fetcher';
 
 const editUrl = (slug) =>
   `https://github.com/kurnhyalcantara/my-personal-blog/edit/master/pages/blog/${slug}.mdx`;
