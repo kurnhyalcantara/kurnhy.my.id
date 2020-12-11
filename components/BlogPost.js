@@ -4,12 +4,20 @@ import useSWR from 'swr';
 import { parseISO, format as formatDate } from 'date-fns';
 import format from 'comma-number';
 import { FiBookmark } from 'react-icons/fi';
-import { useColorMode, Heading, Text, Flex, Box, Link } from '@chakra-ui/core';
+import {
+  useColorMode,
+  Heading,
+  Text,
+  Flex,
+  Box,
+  Link,
+  PseudoBox
+} from '@chakra-ui/core';
 
 import fetcher from '../lib/fetcher';
 
 const BlogPost = (frontMatter) => {
-  const { title, summary, publishedAt } = frontMatter;
+  const { title, summary, publishedAt, tag } = frontMatter;
   const { colorMode } = useColorMode();
   const secondaryTextColor = {
     light: 'gray.700',
@@ -61,7 +69,7 @@ const BlogPost = (frontMatter) => {
             flexWrap="wrap"
             flexDirection={['column', 'row']}
           >
-            <Text color="gray.500" minWidth="105px" mb={[2, 4]}>
+            <Text color="gray.500" minWidth="105px" mb={[4, 2]}>
               {formatDate(parseISO(publishedAt), 'dd MMMM, yyyy')}
               <>
                 &nbsp;•&nbsp;
