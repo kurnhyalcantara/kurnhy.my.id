@@ -1,5 +1,4 @@
 import React from 'react';
-import useSWR from 'swr';
 import IframeResizer from 'iframe-resizer-react';
 import { parseISO, format } from 'date-fns';
 import {
@@ -15,8 +14,8 @@ import {
 
 import Container from '../components/Container';
 import Subscribe from '../components/Subscribe';
+import ViewCounter from '../components/ViewCounter';
 import BlogSeo from '../components/BlogSeo';
-import fetcher from '../lib/fetcher';
 
 const editUrl = (slug) =>
   `https://github.com/kurnhyalcantara/my-personal-blog/edit/master/pages/blog/${slug}.mdx`;
@@ -81,6 +80,7 @@ export default function BlogLayout({ children, frontMatter }) {
             <Text fontSize="sm" color="gray.500" minWidth="100px" mt={[2, 0]}>
               {frontMatter.readingTime.text}
               {` • `}
+              <ViewCounter id={slug} />
             </Text>
           </Flex>
         </Flex>
