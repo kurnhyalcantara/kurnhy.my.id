@@ -3,6 +3,7 @@ import NextLink from 'next/link';
 import useSWR from 'swr';
 import { parseISO, format as formatDate } from 'date-fns';
 import format from 'comma-number';
+import { FiBookmark } from 'react-icons/fi';
 import { useColorMode, Heading, Text, Flex, Box, Link } from '@chakra-ui/core';
 
 import fetcher from '../lib/fetcher';
@@ -22,6 +23,14 @@ const BlogPost = (frontMatter) => {
     light: 'gray.200',
     dark: 'gray.600'
   };
+  const iconColor = {
+    light: 'gray.400',
+    dark: 'gray.500'
+  };
+  const fillColor = {
+    light: 'white',
+    dark: 'gray.900'
+  };
 
   const slug = frontMatter.__resourcePath
     .replace('blog/', '')
@@ -40,10 +49,12 @@ const BlogPost = (frontMatter) => {
           border="1px solid"
           borderColor={borderColor[colorMode]}
           borderRadius={4}
+          position="relative"
         >
           <Heading size="md" as="h3" mb={1} fontWeight="medium">
             {title}
           </Heading>
+
           <Flex
             width="100%"
             align="flex-start"
@@ -59,6 +70,16 @@ const BlogPost = (frontMatter) => {
             </Text>
           </Flex>
           <Text color={secondaryTextColor[colorMode]}>{summary}</Text>
+          <Box
+            as={FiBookmark}
+            size={6}
+            role="img"
+            position="absolute"
+            color={iconColor[colorMode]}
+            fill={fillColor[colorMode]}
+            right={2}
+            top={-8}
+          />
         </Box>
       </Link>
     </NextLink>
