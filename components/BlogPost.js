@@ -17,7 +17,7 @@ import {
 import fetcher from '../lib/fetcher';
 
 const BlogPost = (frontMatter) => {
-  const { title, summary, publishedAt, tag } = frontMatter;
+  const { title, summary, publishedAt } = frontMatter;
   const { colorMode } = useColorMode();
   const secondaryTextColor = {
     light: 'gray.700',
