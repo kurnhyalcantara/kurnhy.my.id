@@ -15,7 +15,6 @@ import {
 
 import Container from '../components/Container';
 import Subscribe from '../components/Subscribe';
-import ViewCounter from '../components/ViewCounter';
 import BlogSeo from '../components/BlogSeo';
 import fetcher from '../lib/fetcher';
 
