@@ -16,6 +16,7 @@ import {
 import Container from '../components/Container';
 import Subscribe from '../components/Subscribe';
 import BlogSeo from '../components/BlogSeo';
+import fetcher from '../lib/fetcher';
 
 const editUrl = (slug) =>
   `https://github.com/kurnhyalcantara/my-personal-blog/edit/master/pages/blog/${slug}.mdx`;
@@ -28,6 +29,8 @@ export default function BlogLayout({ children, frontMatter }) {
   const slug = frontMatter.__resourcePath
     .replace('blog/', '')
     .replace('.mdx', '');
+  const { data } = useSWR(`/api/page-views?id=${slug}`, fetcher);
+  const views = data?.total;
   const { colorMode } = useColorMode();
   const textColor = {
     light: 'gray.700',
@@ -80,6 +83,7 @@ export default function BlogLayout({ children, frontMatter }) {
             <Text fontSize="sm" color="gray.500" minWidth="100px" mt={[2, 0]}>
               {frontMatter.readingTime.text}
               {` • `}
+              {`${views ? format(views) : '–––'} kali dibaca`}
             </Text>
           </Flex>
         </Flex>
