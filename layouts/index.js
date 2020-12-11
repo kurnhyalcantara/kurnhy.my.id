@@ -74,7 +74,7 @@ export default function BlogLayout({ children, frontMatter }) {
               <Text fontSize="sm" color={textColor[colorMode]}>
                 {frontMatter.by}
                 {'Kurniawan Alcantara / '}
-                {format(parseISO(frontMatter.publishedAt), 'MMMM dd, yyyy')}
+                {format(parseISO(frontMatter.publishedAt), 'dd MMMM, yyyy')}
               </Text>
             </Flex>
             <Text fontSize="sm" color="gray.500" minWidth="100px" mt={[2, 0]}>

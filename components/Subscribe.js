@@ -18,12 +18,12 @@ const Subscribe = () => {
   const toast = useToast();
   const { colorMode } = useColorMode();
   const bgColor = {
-    light: 'blue.50',
-    dark: 'blue.900'
+    light: 'green.50',
+    dark: 'green.900'
   };
   const borderColor = {
     light: 'blue.200',
-    dark: 'blue.900'
+    dark: 'green.700'
   };
 
   const subscribe = async (e) => {

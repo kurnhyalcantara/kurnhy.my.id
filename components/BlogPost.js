@@ -1,13 +1,14 @@
 import React from 'react';
 import NextLink from 'next/link';
 import useSWR from 'swr';
+import { parseISO, format as formatDate } from 'date-fns';
 import format from 'comma-number';
 import { useColorMode, Heading, Text, Flex, Box, Link } from '@chakra-ui/core';
 
 import fetcher from '../lib/fetcher';
 
 const BlogPost = (frontMatter) => {
-  const { title, summary } = frontMatter;
+  const { title, summary, publishedAt } = frontMatter;
   const { colorMode } = useColorMode();
   const secondaryTextColor = {
     light: 'gray.700',
@@ -16,6 +17,10 @@ const BlogPost = (frontMatter) => {
   const bgColor = {
     light: 'white',
     dark: 'gray.700'
+  };
+  const borderColor = {
+    light: 'gray.200',
+    dark: 'gray.600'
   };
 
   const slug = frontMatter.__resourcePath
@@ -27,34 +32,34 @@ const BlogPost = (frontMatter) => {
 
   return (
     <NextLink href={`blog/${slug}`} passHref>
-      <Link
-        mb={4}
-        w="100%"
-        bg={bgColor[colorMode]}
-        p={4}
-        _hover={{ textDecoration: 'none' }}
-      >
-        <Flex display="block" width="100%">
+      <Link _hover={{ textDecoration: 'none', shadow: 'lg' }}>
+        <Box
+          width="100%"
+          padding={6}
+          bg={bgColor[colorMode]}
+          border="1px solid"
+          borderColor={borderColor[colorMode]}
+          borderRadius={4}
+        >
+          <Heading size="md" as="h3" mb={1} fontWeight="medium">
+            {title}
+          </Heading>
           <Flex
             width="100%"
             align="flex-start"
-            justifyContent="space-between"
+            flexWrap="wrap"
             flexDirection={['column', 'row']}
           >
-            <Heading size="md" as="h3" mb={2} fontWeight="medium">
-              {title}
-            </Heading>
-            <Text
-              color="gray.500"
-              minWidth="105px"
-              textAlign={['left', 'right']}
-              mb={[4, 0]}
-            >
-              {`${views ? format(views) : '–––'} kali dilihat`}
+            <Text color="gray.500" minWidth="105px" mb={[2, 4]}>
+              {formatDate(parseISO(publishedAt), 'dd MMMM, yyyy')}
+              <>
+                &nbsp;•&nbsp;
+                {`${views ? format(views) : '–––'} kali dilihat`}
+              </>
             </Text>
           </Flex>
           <Text color={secondaryTextColor[colorMode]}>{summary}</Text>
-        </Flex>
+        </Box>
       </Link>
     </NextLink>
   );

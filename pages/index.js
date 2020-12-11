@@ -68,6 +68,7 @@ const Index = () => {
           justifyContent="flex-start"
           alignItems="flex-start"
           maxWidth="700px"
+          mt={8}
         >
           <Heading letterSpacing="tight" mb={4} size="xl" fontWeight={700}>
             Proyek
