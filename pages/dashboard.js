@@ -13,7 +13,6 @@ import Analytics from '../components/metrics/Analytics';
 import Buttondown from '../components/metrics/Buttondown';
 import Container from '../components/Container';
 import GitHub from '../components/metrics/Github';
-import Gumroad from '../components/metrics/Gumroad';
 import YouTube from '../components/metrics/Youtube';
 import TopTracks from '../components/TopTracks';
 import { CustomLink } from '../components/MDXComponents';
