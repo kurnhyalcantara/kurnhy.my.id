@@ -87,6 +87,7 @@ const Dashboard = () => {
             </SimpleGrid>
             <SimpleGrid columns={[1, 1, 2]} spacing={4} mb={4}>
               <Buttondown />
+              <Youtube />
             </SimpleGrid>
           </Flex>
           <Heading letterSpacing="tight" as="h2" size="xl">
