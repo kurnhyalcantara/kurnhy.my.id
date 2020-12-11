@@ -1,4 +1,5 @@
 import React from 'react';
+import useSWR from 'swr';
 import IframeResizer from 'iframe-resizer-react';
 import { parseISO, format } from 'date-fns';
 import {
@@ -16,6 +17,7 @@ import Container from '../components/Container';
 import Subscribe from '../components/Subscribe';
 import ViewCounter from '../components/ViewCounter';
 import BlogSeo from '../components/BlogSeo';
+import fetcher from '../lib/fetcher';
 
 const editUrl = (slug) =>
   `https://github.com/kurnhyalcantara/my-personal-blog/edit/master/pages/blog/${slug}.mdx`;
@@ -23,6 +25,8 @@ const discussUrl = (slug) =>
   `https://mobile.twitter.com/search?q=${encodeURIComponent(
     `https://kurnhy.my.id/blog/${slug}`
   )}`;
+const { data } = useSWR(`/api/page-views?id=${slug}`, fetcher);
+const views = data?.total;
 
 export default function BlogLayout({ children, frontMatter }) {
   const slug = frontMatter.__resourcePath
@@ -80,7 +84,7 @@ export default function BlogLayout({ children, frontMatter }) {
             <Text fontSize="sm" color="gray.500" minWidth="100px" mt={[2, 0]}>
               {frontMatter.readingTime.text}
               {` • `}
-              <ViewCounter id={slug} />
+              {`${views ? format(views) : '–––'} kali dibaca`}
             </Text>
           </Flex>
         </Flex>

@@ -35,13 +35,11 @@ const Error = () => {
           maxWidth="700px"
         >
           <Heading letterSpacing="tight" mb={2} as="h1" size="2xl">
-            451 – Unavailable For Legal Reasons
+            451 – Konten tidak tersedia
           </Heading>
           <Text color={secondaryTextColor[colorMode]} my={4}>
-            Why show a generic 404 when I can make it sound mysterious? It seems
-            you've found something that used to exist, or you spelled something
-            wrong. I'm guessing you spelled something wrong. Can you double
-            check that URL?
+            Anda tidak bisa mengakses konten yang dimaksud. Silahkan periksa
+            kembali link nya boskuu
           </Text>
           <NextLink href="/" passHref>
             <Button
@@ -51,7 +49,7 @@ const Error = () => {
               fontWeight="bold"
               m="3rem auto 0"
             >
-              Return Home
+              Kembali ke awal
             </Button>
           </NextLink>
         </Flex>

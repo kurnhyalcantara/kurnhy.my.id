@@ -73,7 +73,7 @@ const BlogPost = (frontMatter) => {
               {formatDate(parseISO(publishedAt), 'dd MMMM, yyyy')}
               <>
                 &nbsp;•&nbsp;
-                {`${views ? format(views) : '–––'} kali dilihat`}
+                {`${views ? format(views) : '–––'} kali dibaca`}
               </>
             </Text>
           </Flex>
