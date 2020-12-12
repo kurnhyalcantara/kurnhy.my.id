@@ -63,7 +63,6 @@ const BlogPost = (frontMatter) => {
           <Heading size="md" as="h3" mb={1} fontWeight="medium">
             {title}
           </Heading>
-
           <Flex
             width="100%"
             align="flex-start"
