@@ -52,6 +52,7 @@ const BlogPost = (frontMatter) => {
       <Link w="100%" _hover={{ textDecoration: 'none', shadow: 'lg' }}>
         <Box
           width="100%"
+          display="block"
           padding={6}
           mb={6}
           bg={bgColor[colorMode]}
