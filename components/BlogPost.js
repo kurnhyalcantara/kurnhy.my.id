@@ -49,18 +49,16 @@ const BlogPost = (frontMatter) => {
 
   return (
     <NextLink href={`blog/${slug}`} passHref>
-      <Link w="100%" _hover={{ textDecoration: 'none', shadow: 'lg' }}>
-        <Box
-          width="100%"
-          display="block"
-          padding={6}
-          mb={6}
-          bg={bgColor[colorMode]}
-          border="1px solid"
-          borderColor={borderColor[colorMode]}
-          borderRadius={4}
-          position="relative"
-        >
+      <Link
+        bg={bgColor[colorMode]}
+        border="1px solid"
+        borderColor={borderColor[colorMode]}
+        borderRadius={4}
+        mb={6}
+        w="100%"
+        _hover={{ textDecoration: 'none', shadow: 'lg' }}
+      >
+        <Box width="100%" display="block" padding={6} position="relative">
           <Heading size="md" as="h3" mb={1} fontWeight="medium">
             {title}
           </Heading>
