@@ -57,9 +57,10 @@ const BlogPost = (frontMatter) => {
         mb={6}
         padding={6}
         w="100%"
+        position="relative"
         _hover={{ textDecoration: 'none', shadow: 'lg' }}
       >
-        <Box width="100%" display="block" position="relative">
+        <Box width="100%" display="block">
           <Heading size="md" as="h3" mb={1} fontWeight="medium">
             {title}
           </Heading>
