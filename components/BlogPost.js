@@ -55,10 +55,11 @@ const BlogPost = (frontMatter) => {
         borderColor={borderColor[colorMode]}
         borderRadius={4}
         mb={6}
+        padding={6}
         w="100%"
         _hover={{ textDecoration: 'none', shadow: 'lg' }}
       >
-        <Box width="100%" display="block" padding={6} position="relative">
+        <Box width="100%" display="block" position="relative">
           <Heading size="md" as="h3" mb={1} fontWeight="medium">
             {title}
           </Heading>
