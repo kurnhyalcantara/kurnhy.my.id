@@ -86,6 +86,20 @@ const Blog = () => {
               </InputRightElement>
             </InputGroup>
           </Flex>
+          {!searchValue && (
+            <Flex
+              flexDirection="column"
+              justifyContent="flex-start"
+              alignItems="flex-start"
+              maxWidth="700px"
+              mt={8}
+            >
+              <Heading letterSpacing="tight" mb={4} size="xl" fontWeight={700}>
+                Artikel Populer
+              </Heading>
+              <BlogPost {...kapitangMassalanra} />
+            </Flex>
+          )}
           <Flex
             flexDirection="column"
             justifyContent="flex-start"
