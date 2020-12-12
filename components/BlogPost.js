@@ -49,11 +49,10 @@ const BlogPost = (frontMatter) => {
 
   return (
     <NextLink href={`blog/${slug}`} passHref>
-      <Link _hover={{ textDecoration: 'none', shadow: 'lg' }}>
+      <Link w="100%" _hover={{ textDecoration: 'none', shadow: 'lg' }}>
         <Box
-          max-width="700px"
-          padding={4}
-          mb={4}
+          padding={6}
+          mb={6}
           bg={bgColor[colorMode]}
           border="1px solid"
           borderColor={borderColor[colorMode]}
