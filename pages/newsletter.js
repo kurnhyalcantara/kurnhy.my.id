@@ -27,6 +27,9 @@ const Newsletter = () => {
     light: 'gray.700',
     dark: 'gray.400'
   };
+  const filteredStoryPosts = newsletters.sort(
+    (a, b) => Number(new Date(b.publishedAt)) - Number(new Date(a.publishedAt))
+  );
 
   return (
     <>
@@ -75,7 +78,7 @@ const Newsletter = () => {
               Arsip
             </Heading>
             <List styleType="disc">
-              {newsletters.map((frontMatter) => (
+              {filteredStoryPosts.map((frontMatter) => (
                 <NewsletterLink key={frontMatter.title} {...frontMatter} />
               ))}
             </List>
