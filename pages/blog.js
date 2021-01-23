@@ -16,7 +16,7 @@ import Container from '../components/Container';
 import BlogPost from '../components/BlogPost';
 
 // eslint-disable-next-line import/no-unresolved, import/extensions
-import { frontMatter as blogPosts } from './blog/**/*.mdx';
+import { frontMatter as blogPosts } from './blog/*.mdx';
 import { frontMatter as kapitangMassalanra } from './blog/kapitang-massalanra-panglima-perang-datu-lowa.mdx';
 
 const url = 'https://kurnhy.my.id/blog';
